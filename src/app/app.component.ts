@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ERP';
+  name = "Ivonne Ocampo";
+
+  userName = "";
+
+  calculate(){
+    console.log("Input val:", this.userName);
+    
+  }
+
+  clear(){
+    this.userName ="";
+  }
+
+ test(){
+   console.log("User clicked the button");
+
+   this.name = 'This is really cool';  
+ }
+
 }
